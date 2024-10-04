@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import './Contact.css'
 import { PaperAirplaneIcon } from '@heroicons/react/16/solid'
 import tick from '../../assets/images/tick.png'
+import { colors } from '@mui/material'
 
 const Contact = () => {
     const formRef=useRef(null);
@@ -39,7 +40,7 @@ const Contact = () => {
                     <div className="icon"><i class="fa-solid fa-map"></i></div>
                     <div className="text">
                         <h3>Address</h3>
-                        <p>Nepal, Chitwan <br/>Madi-09, <br/>Gobindabasti</p>
+                        <p>Madi-09,<br/>Chitwan, Nepal</p>
                     </div>
                 </div>
 
@@ -55,7 +56,7 @@ const Contact = () => {
                     <div className="icon"><i class="fa-regular fa-envelope"></i></div>
                     <div className="text">
                         <h3>Email</h3>
-                        <p>contactuniqueadhikari@gmail.com</p>
+                        <a href="mailto:contactuniqueadhikari@gmail.com">Send an email</a>
                     </div>
                 </div>
             </div>
