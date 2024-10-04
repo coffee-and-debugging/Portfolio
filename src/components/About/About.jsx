@@ -57,8 +57,8 @@ const About = () => {
 
         <div className="mx-auto md:mx-0 mt-[2rem] lg:mt-0 relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:h-[340px] md:w-[340px] lg:w-[400px] lg:h-[400px]">
           <img
-            src={require("../../assets/images/profile.png")}
-            alt="pramod sharma"
+            src={require("../../assets/images/side.jpg")}
+            alt="unique adhikari"
             layout="fill"
             objectFit="contain"
             className="relative z-[11] w-[100%] h-[100%] object-contain"

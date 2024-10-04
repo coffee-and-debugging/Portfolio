@@ -41,8 +41,8 @@ const Home = () => {
 
         <div className="w-[340px] h-[340px] hidden bg-[#55e6a5] relative lg:flex items-center justify-center rounded-full">
           <img
-            src={require("../../assets/images/profile1.JPG")}
-            alt="Unique Adhikari"
+            src={require("../../assets/images/rounded_profile.jpg")}
+            alt="unique adhikari"
             className="object-cover rounded-full"
           />
         </div>
